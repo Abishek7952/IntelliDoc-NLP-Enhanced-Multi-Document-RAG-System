@@ -1,0 +1,12 @@
+langchain
+openai
+chromadb
+tiktoken
+streamlit
+faiss-cpu
+sentence-transformers
+spacy
+nltk
+transformers
+python-dotenv
+PyMuPDF
