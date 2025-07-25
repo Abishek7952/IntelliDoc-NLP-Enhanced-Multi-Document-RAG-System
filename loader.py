@@ -20,3 +20,11 @@ def load_pdfs_from_folder(folder_path: str) -> list[Document]:
                 print(f"✅ Loaded {len(docs)} pages from {filename}")
                 all_docs.extend(docs)
             except Exception as e:
+                print(f"❌ Failed to load {filename}: {e}")
+
+    return all_docs
+
+# Optional test
+if __name__ == "__main__":
+    docs = load_pdfs_from_folder("data/uploads/meidtations.pdf")
+    print(f"Total pages loaded: {len(docs)}")
