@@ -26,5 +26,5 @@ def load_pdfs_from_folder(folder_path: str) -> list[Document]:
 
 # Optional test
 if __name__ == "__main__":
-    docs = load_pdfs_from_folder("data/uploads/meidtations.pdf")
+    docs = load_pdfs_from_folder("data/uploads/")
     print(f"Total pages loaded: {len(docs)}")
